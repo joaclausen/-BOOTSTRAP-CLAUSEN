@@ -8,3 +8,25 @@
     justify-content: center;
     align-items: center;
 }
+.col{
+    border: solid 3px black;
+}
+.container{
+    font-size: x-large;
+}
+.col-sm-4{
+    height: 100vh;
+    display: flex;
+    background-image: url('../img/5da04ca79ff85_XAHf43G__700.jpg');
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.col-sm-8{
+    padding: 11vh;
+    height: 100vh;
+}
+.imagen_fondo{
+    background-image: url('../img/360_F_222999585_80FrXtHgRwFZOniKQzW637ZA7UZDBtzA.jpg');
+    background-size: cover;
+}
