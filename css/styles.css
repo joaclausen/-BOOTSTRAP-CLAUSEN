@@ -30,3 +30,33 @@
     background-image: url('../img/360_F_222999585_80FrXtHgRwFZOniKQzW637ZA7UZDBtzA.jpg');
     background-size: cover;
 }
+@media (max-width: 768px){
+    .col-sm-4{
+        background: none;
+    }
+    .col-sm-8{
+        position: absolute;
+        top: 16.5vh;
+        text-align: center;
+        font-size: smaller;
+        left: 16vw;
+    }
+}
+@media (max-width: 425px){
+    .col-sm-8{
+        position: absolute;
+        top: 16.5vh;
+        text-align: center;
+        font-size: 18px;
+        left: 0.25vw;
+    }
+}
+@media (max-width: 320px){
+    .col-sm-8{
+        position: absolute;
+        top: 16.5vh;
+        text-align: center;
+        font-size: 15.5px;
+        left: 0.25vw;
+    }
+}
