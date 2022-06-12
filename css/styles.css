@@ -50,6 +50,9 @@
         font-size: 18px;
         left: 0.25vw;
     }
+    .d-block{
+        height: 65vh;
+    }
 }
 @media (max-width: 320px){
     .col-sm-8{
